@@ -1,0 +1,44 @@
+{
+    "name": "codersstudio/sms-ru",
+    "description": "Package for send sms via sms.ru. Based on official PHP class http://sms.ru/php.",
+    "type": "package",
+    "license": "MIT",
+    "keywords": [
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Eugeny Nosenko",
+            "email": "info@coders.studio"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^6.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodersStudio\\SmsRu\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CodersStudio\\SmsRu\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodersStudio\\SmsRu\\SmsRuServiceProvider"
+            ],
+            "aliases": {
+                "Notifications": "CodersStudio\\SmsRu\\Facades\\SmsRu"
+            }
+        }
+    },
+    "require-dev": {
+    }
+}
