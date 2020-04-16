@@ -60,7 +60,7 @@ class SmsRuServiceProvider extends ServiceProvider
     {
         // Publishing the configuration file.
         $this->publishes([
-            __DIR__.'/../config/sms-ru.php' => config_path('sms-rut.php'),
+            __DIR__.'/../config/sms-ru.php' => config_path('sms-ru.php'),
         ], 'sms-ru.config');
 
         // Registering package commands.
