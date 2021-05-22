@@ -1,7 +1,7 @@
 <?php
 
 namespace CodersStudio\SmsRu;
-use CodersStudio\SmsRu\Vendor\SMSRU AS SmsRuClient;
+use CodersStudio\SmsRu\Vendor\SmsRu AS SmsRuClient;
 use CodersStudio\SmsRu\Classes\SMS;
 use stdClass;
 
