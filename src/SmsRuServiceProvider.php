@@ -3,7 +3,7 @@
 namespace CodersStudio\SmsRu;
 
 use Illuminate\Support\ServiceProvider;
-use CodersStudio\SmsRu\Vendor\SMSRU AS SmsRuClient;
+use CodersStudio\SmsRu\Vendor\SmsRu AS SmsRuClient;
 
 class SmsRuServiceProvider extends ServiceProvider
 {

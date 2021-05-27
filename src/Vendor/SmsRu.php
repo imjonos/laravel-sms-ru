@@ -5,7 +5,7 @@ namespace CodersStudio\SmsRu\Vendor;
  * Класс для работы с API сайта sms.ru для PHP 5.3 и выше
  * Разработчик WebProgrammer (kl.dm.vl@yandex.ru), легкие корректировки - Роман Гудев <rgudev@bk.ru>
  */
-class SMSRU {
+class SmsRu {
 
     private $ApiKey;
     private $protocol = 'https';
