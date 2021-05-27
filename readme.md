@@ -11,15 +11,19 @@
 Package for send sms via sms.ru. Based on official PHP class http://sms.ru/php.
 This is package provide Channel and base Notification.
 
-Config file (For details please read documentation http://sms.ru/php):
+Create file `config/sms-ru.php` with content: (For details please read documentation http://sms.ru/php):
 
-    //API
-    'api_key' => env('SMS_RU_API_KEY', ''),
-    
-    'from' => env('SMS_RU_FROM', ''),
+```
+<?php
+
+return [
+    'api_key' => env('SMS_RU_API_KEY'),
+    'from' => env('SMS_RU_FROM'),
     'translit' => env('SMS_RU_TRANSLIT', 1),
     'test' => env('SMS_RU_TEST', 1),
     'partner_id' => env('SMS_RU_PARTNER_ID', 0)
+];
+```
 
 Examples:
     
