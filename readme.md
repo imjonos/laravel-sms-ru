@@ -5,7 +5,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/codersStudio/yandex-money-checkout.svg?style=flat-square)](https://packagist.org/packages/codersStudio/yandex-money-checkout)
 
 ## Install
-`composer require coderstudio/sms-ru`
+`composer require codersstudio/sms-ru`
 
 ## Usage
 Package for send sms via sms.ru. Based on official PHP class http://sms.ru/php.
