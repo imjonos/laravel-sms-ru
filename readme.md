@@ -1,8 +1,6 @@
 # Laravel sms.ru notifications 
 
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Travis](https://img.shields.io/travis/codersStudio/yandex-money-checkout.svg?style=flat-square)]()
-[![Total Downloads](https://img.shields.io/packagist/dt/codersStudio/yandex-money-checkout.svg?style=flat-square)](https://packagist.org/packages/codersStudio/yandex-money-checkout)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/codersstudio/sms-ru?style=flat-square)](https://packagist.org/packages/codersstudio/sms-ru)  [![Total Downloads](https://img.shields.io/packagist/dt/codersstudio/sms-ru.svg?style=flat-square)](https://packagist.org/packages/codersstudio/sms-ru)
 
 ## Install
 `composer require codersstudio/sms-ru`
